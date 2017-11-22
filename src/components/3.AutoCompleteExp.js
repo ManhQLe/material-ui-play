@@ -91,6 +91,11 @@ class AutoCompleteExp extends Component {
     render() {
         const {Data,Source2,Source3,Colors,Fruits} = this.state;
 
+        const menuProps = {
+            desktop:true,
+            disableAutoFocus:true
+        }
+
         return <div>
             <AutoComplete hintText="Type anything here" dataSource={Data}
                 onUpdateInput={this.onUpdateInput} />
@@ -103,6 +108,8 @@ class AutoCompleteExp extends Component {
             <AutoComplete hintText="Case insensitive filter" filter={AutoComplete.caseInsensitiveFilter} dataSource={Colors}/>
             <br/>
             <AutoComplete hintText="Fuzzy filter" maxSearchResults={5}  filter={AutoComplete.fuzzyFilter} dataSource={Fruits}/>
+            <br/>
+            <AutoComplete hintText="Type Color - MenuProp" dataSource={Colors} menuProps={menuProps}/>
         </div>
     }
 }
