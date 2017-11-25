@@ -5,7 +5,7 @@ import AppBarExp from './components/2.AppBarExp'
 import AutoCompleteExp from './components/3.AutoCompleteExp'
 import AvatarExp from './components/4.AvatarExp'
 import BadgeExp from './components/5.BadgeExp'
-
+import BottomNavExp from './components/6.BottomNavExp'
 
 class App extends Component {
 	render() {
@@ -17,6 +17,7 @@ class App extends Component {
 					<AutoCompleteExp/>
 					<AvatarExp/>
 					<BadgeExp/>
+					<BottomNavExp/>
 					<div style={{ height: 1400 }}>
 					</div>					
 				</div>
