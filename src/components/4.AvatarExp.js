@@ -3,12 +3,6 @@ import Avatar from 'material-ui/Avatar'
 import FileFolder from 'material-ui/svg-icons/file/folder'
 
 import  {
-    blue300,
-    indigo900,
-    orange200,
-    deepOrange300,
-    pink400,
-    purple500,
     white,
     blue800,
     blue600,
