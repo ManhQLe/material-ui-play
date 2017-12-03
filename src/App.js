@@ -8,7 +8,7 @@ import BadgeExp from './components/5.BadgeExp'
 import BottomNavExp from './components/6.BottomNavExp'
 import FontIconExp from './components/7.FontIconExp'
 import SimpleListExp from './components/8.SimpleListExp'
-
+import AdvancedListExp from './components/9.AdvancedListExp'
 class App extends Component {
 	render() {
 		return (
@@ -23,6 +23,7 @@ class App extends Component {
 					<hr/>
 					<FontIconExp/>
 					<SimpleListExp/>
+					<AdvancedListExp/>
 					<div style={{ height: 1400 }}>
 					</div>					
 				</div>
